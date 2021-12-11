@@ -4,7 +4,7 @@ from sklearn.cluster import SpectralCoclustering
 from tqdm import tqdm
 import json
 
-# the min function for bi-spectral algorithm
+# the main function for bi-spectral algorithm
 def run_bispectral(input_data, min_user = 10, k = 100):
 
     # get mapping from user / hashtag name to idx, as well as from idx to user / hashtag name
